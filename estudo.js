@@ -27,11 +27,22 @@ function escreva(){
 
     }
 }
-function quadrado(){
-    for(var i = 2; i < 101; i++){
-        document.write("O quadrado de " = i + " é " + (i*i) + "<br>")
-    }
+ function total(){
+     let Valor = document.getElementById("val").value;
+     let Juros = document.getElementById("ju").value;
+     let mes = document.getElementById("mes").value;
+     let resultado = 0;
+     for(let i = 1; i <= mes; i++){
+         resultado += valor * (1+(juros/100)) ;
+     }
 
-}
+     
+     document.write("O resul2tado é" + resultado)
+ }
+
+
+
+
+
 
 
