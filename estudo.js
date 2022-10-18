@@ -32,6 +32,14 @@ function escreva(){
      let Juros = document.getElementById("ju").value;
      let mes = document.getElementById("mes").value;
      let resultado = 0;
+
+ if(Number(valor)){
+    alert("O valor deve ser um numero.");
+   return 
+
+}
+
+
      for(let i = 1; i <= mes; i++){
          resultado += valor * (1+(juros/100)) ;
      }
@@ -39,6 +47,8 @@ function escreva(){
      
      document.write("O resul2tado é" + resultado)
  }
+
+ 
 
  function soma(){
    let n1 = document.getElementById("n1").value;
@@ -67,6 +77,12 @@ function escreva(){
      document.getElementById("resultado").innerHTML = r;
 
  }
+
+
+
+
+
+
 
 
 
