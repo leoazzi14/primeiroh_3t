@@ -1,1 +1,14 @@
 
+.calculadora{
+  padding: 10px;
+  background: gold ;
+  width: 200px;
+
+}
+#btnCaln{
+    width: 50px;
+    padding: 5px;
+    background: hotpink;
+
+}
+
